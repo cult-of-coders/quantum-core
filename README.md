@@ -67,6 +67,31 @@ Q('randomPlugin test') -> 'xxx'
 ```
 
 
+Extending a plugin:
+=========================
+```
+Q('template').extend({
+    newConfigKey: { type: String }
+}, function (atom) {
+    let config = atom.config;
+
+    // do something with config.newConfigKey
+});
+
+```
+
+Declaring Plugin Dependencies
+=============================
+
+Specifically define requirements which are computed at boot:
+
+```
+requires() {
+   return 'collection-hooks'; // or more ['collection-hooks', 'collection-exposure']
+}
+```
+
+
 Built in global event manager
 ====================================
 QF.on('event', handler)
