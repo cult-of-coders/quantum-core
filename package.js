@@ -28,7 +28,8 @@ Package.onUse(function (api) {
         'ecmascript',
         'underscore',
         'raix:eventemitter@0.1.3',
-        'aldeed:simple-schema@1.5.3'
+        'aldeed:simple-schema@1.5.3',
+        'underscorestring:underscore.string@3.3.4'
     ];
 
     api.use(packages);
