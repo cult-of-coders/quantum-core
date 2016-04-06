@@ -49,7 +49,7 @@ Package.onUse(function (api) {
 
 Package.onTest(function (api) {
     api.use('ecmascript');
-    api.use('cultofcoders:quantum-core');
+    api.use('cultofcoders:quantum-core@1.0.0');
     api.use('tinytest');
 
     api.addFiles('tests/lib/Atom.test.js');
