@@ -13,18 +13,6 @@ Package.describe({
 Package.onUse(function (api) {
     api.versionsFrom('1.2.1');
     var packages = [
-        'meteor-base',
-        'mobile-experience',
-        'mongo',
-        'templating',
-        'blaze-html-templates',
-        'session',
-        'jquery',
-        'tracker',
-        'check',
-        'reactive-var',
-        'standard-minifiers',
-        'es5-shim',
         'ecmascript',
         'underscore',
         'raix:eventemitter@0.1.3',
