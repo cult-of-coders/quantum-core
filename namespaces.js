@@ -1,4 +1,5 @@
 Quantum = {
     Model: {},
-    UI: {}
+    UI: {},
+    Exception: {}
 };
