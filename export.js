@@ -21,3 +21,9 @@ Q = function(string, config) {
 };
 
 QF = Quantum.instance = new Quantum.Model.Body();
+
+Any = new class {
+    equals() {
+        return true;
+    }
+};
