@@ -58,6 +58,6 @@ Tinytest.add('Testing building based on lazy context', function (test) {
     test.instanceOf(atom, Quantum.Model.Atom);
     test.isFalse(atom.isBuilt());
 
-    plugin._getAtom('test');
+    plugin.get('test');
     test.isTrue(atom.isBuilt());
 });
