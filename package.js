@@ -1,6 +1,6 @@
 Package.describe({
     name: 'cultofcoders:quantum-core',
-    version: '1.0.4',
+    version: '1.0.5',
     // Brief, one-line summary of the package.
     summary: 'The core of quantum where plugins are registered and used.',
     // URL to the Git repository containing the source code for this package.
@@ -29,11 +29,10 @@ Package.onUse(function (api) {
         'lib/Utils.js',
         'lib/Atom.js',
         'lib/Body.js',
-        'lib/Plugin.js',
-        'export.js'
+        'lib/Plugin.js'
     ]);
 
-    api.export(['QF', 'Q', 'Quantum']);
+    api.export(['Quantum']);
 });
 
 Package.onTest(function (api) {
