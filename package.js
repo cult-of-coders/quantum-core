@@ -1,6 +1,6 @@
 Package.describe({
     name: 'cultofcoders:quantum-core',
-    version: '1.0.6',
+    version: '1.1.0',
     // Brief, one-line summary of the package.
     summary: 'The core of quantum where plugins are registered and used.',
     // URL to the Git repository containing the source code for this package.
@@ -17,8 +17,7 @@ Package.onUse(function (api) {
         'underscore',
         'check',
         'raix:eventemitter@0.1.3',
-        'aldeed:simple-schema@1.5.3',
-        'underscorestring:underscore.string@3.3.4'
+        'aldeed:simple-schema@1.5.3'
     ];
 
     api.use(packages);
